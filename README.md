@@ -16,7 +16,7 @@ https://share.streamlit.io/rafaelcoelho1409/computervision/object_detection.py (
 https://share.streamlit.io/rafaelcoelho1409/computervision/image_segmentation.py (Segmentação de objetos em imagem)
 https://share.streamlit.io/rafaelcoelho1409/computervision/opencv1.py (Aplicação de Visão Computacional com OpenCV)  
 OBS: devido a limitações do Streamlit Cloud, este repositório fica muito grande para o armazenamento interno do Streamlit Cloud, logo a máquina que processa este repositório para disponibilizar as aplicações, com sua memória limitada, não aguenta e dá erro.  
-O único app que funciona sem limitações é o terceiro (Aplicação de Visão Computacional com OpenCV).
+O único app que funciona sem limitações no Streamlit Cloud é o terceiro (Aplicação de Visão Computacional com OpenCV), portanto todos os apps só funcionam corretamente localmente (instruções abaixo de como rodar localmente na sua máquina).
 
 ## Recursos utilizados
 - Visual Studio Code
