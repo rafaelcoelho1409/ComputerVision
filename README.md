@@ -42,6 +42,18 @@ O único app que funciona sem limitações é o terceiro (Aplicação de Visão 
 - Filtros de imagem do OpenCV
 - Detecção e classificação de objetos com OpenCV (repostado)
 
+## Para executar esse arquivo localmente em sua máquina
+- baixe esse repositório em sua máquina:
+> git clone https://github.com/rafaelcoelho1409/DeepLearning.git
+- instale os pacotes necessários que estão no arquivo requirements.txt:
+> pip3 install -r requirements.txt
+- escolha seu interpretador python (python3, python3.x)  
+- execute os seguintes comandos (para Linux):
+> cd DeepLearning  
+> streamlit run {nome_do_app}.py (substitua {nome_do_app} por object_detection.py, image_segmentation.py, opencv1.py)  
+- Com esses comandos, a página será aberta automaticamente. Caso não abra, vá até seu navegador e digite:
+> http://localhost:8501  
+
 ## Screenshots do projeto construído
 <img src="images/screenshot01.png" />
 <img src="images/screenshot02.png" />
