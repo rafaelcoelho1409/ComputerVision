@@ -12,7 +12,11 @@ Disponibilizar aplicações de modelos de Visão Computacional em formato de web
 - Aplicação de filtros de imagens com OpenCV
 
 ## Links deste projeto
-A postar
+https://share.streamlit.io/rafaelcoelho1409/computervision/object_detection.py (Detecção e classificação de objetos em imagem)
+https://share.streamlit.io/rafaelcoelho1409/computervision/image_segmentation.py (Segmentação de objetos em imagem)
+https://share.streamlit.io/rafaelcoelho1409/computervision/opencv1.py (Aplicação de Visão Computacional com OpenCV)
+OBS: devido a limitações do Streamlit Cloud, este repositório fica muito grande para o armazenamento interno do Streamlit Cloud, logo a máquina que processa este repositório para disponibilizar as aplicações, com sua memória limitada, não aguenta e dá erro.  
+O único app que funciona sem limitações é o terceiro (Aplicação de Visão Computacional com OpenCV).
 
 ## Recursos utilizados
 - Visual Studio Code
