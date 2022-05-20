@@ -1,30 +1,30 @@
-# Visão Computacional com Tensorflow, Keras e OpenCV
+# Computer Vision with Tensorflow, Keras and OpenCV
 <p float="left">
   <img src="images/image2.jpg" width="400" />
   <img src="images/image4.jpg" width="400" /> 
 </p>
 
-## Objetivo
-Disponibilizar aplicações de modelos de Visão Computacional em formato de web app. Foram abordados os seguintes tópicos:
-- Detecção e classificação de objetos em imagem
-- Segmentação de objetos em imagem
-- AutoEncoder (modelo de rede neural aplicado para redução de ruídos em imagem)
-- Aplicação de filtros de imagens com OpenCV
+## Purpose
+Make available Computer Vision model applications in web app format. The following topics were approached:
+- Image object detection and classification
+- Image object segmentation
+- AutoEncoder (neural network model applied for image noise reduction)
+- Image filters application with OpenCV
 
-## Links deste projeto
-- https://share.streamlit.io/rafaelcoelho1409/computervision/object_detection.py (Detecção e classificação de objetos em imagem)
-- https://share.streamlit.io/rafaelcoelho1409/computervision/image_segmentation.py (Segmentação de objetos em imagem)
-- https://share.streamlit.io/rafaelcoelho1409/computervision/opencv1.py (Aplicação de Visão Computacional com OpenCV)  
-OBS: devido a limitações do Streamlit Cloud, este repositório fica muito grande para o armazenamento interno do Streamlit Cloud, logo a máquina que processa este repositório para disponibilizar as aplicações, com sua memória limitada, não aguenta e dá erro.  
-O único app que funciona sem limitações no Streamlit Cloud é o terceiro (Aplicação de Visão Computacional com OpenCV), portanto todos os apps só funcionam corretamente localmente (instruções abaixo de como rodar localmente na sua máquina).
+## Project links
+- https://share.streamlit.io/rafaelcoelho1409/computervision/object_detection.py (Image object detection and classification)  
+- https://share.streamlit.io/rafaelcoelho1409/computervision/image_segmentation.py (Image object segmentation)
+- https://share.streamlit.io/rafaelcoelho1409/computervision/opencv1.py (Computer Vision application with OpenCV)  
+OBS: Due to Streamlit Cloud limitations, this repo takes up a lot of internal storage memory from Streamlit Cloud, then the cloud processing of this repository to make available these applications, with its limited memory, crashes the page and then, it doesn't work.  
+The only app that works with no limitations on Streamlit Cloud is the third (Computer Vision application with OpenCV), so all apps here only work locally (instructions below about how to run this repo locally in your machine).
 
-## Recursos utilizados
+## Resources
 - Visual Studio Code
 - python3.8.8
 - virtualenv
-- pip3: gerenciador de pacotes python3.x
+- pip3: python3.x packages manager
 
-## Pacotes do Python
+## Python packages
 - streamlit
 - tensorflow
 - tensorflow.keras
@@ -35,26 +35,26 @@ O único app que funciona sem limitações no Streamlit Cloud é o terceiro (Apl
 - cv2 (OpenCV)
 - object_detection (Tensorflow Object Detection API)
 
-## Tópicos abordados neste projeto
-- Detecção e classificação de objetos com Tensorflow Object Detection API
-- Segmentação de imagem
-- Convolutional AutoEncoder (modelo de rede neural)
-- Filtros de imagem do OpenCV
-- Detecção e classificação de objetos com OpenCV (repostado)
+## Topics approached in this project
+- Object detection and classification with Tensorflow Object Detection API
+- Image segmentation
+- Convolutional AutoEncoder (neural network model)
+- Image filters from OpenCV
+- Object detection and classification with OpenCV (republished)
 
-## Para executar esse arquivo localmente em sua máquina
-- baixe esse repositório em sua máquina:
+## Running this repo in your local machine
+- clone this repo:  
 > git clone https://github.com/rafaelcoelho1409/DeepLearning.git
-- instale os pacotes necessários que estão no arquivo requirements.txt:
+- install required packages that are in 'requirements.txt' file:
 > pip3 install -r requirements.txt
-- escolha seu interpretador python (python3, python3.x)  
-- execute os seguintes comandos (para Linux):
+- choose your Python interpreter (python3.x)  
+- run the following commands (for Linux):
 > cd DeepLearning  
-> streamlit run {nome_do_app}.py (substitua {nome_do_app} por object_detection.py, image_segmentation.py, opencv1.py)  
-- Com esses comandos, a página será aberta automaticamente. Caso não abra, vá até seu navegador e digite:
+> streamlit run {app_name}.py (change {app_name} for object_detection.py, image_segmentation.py, opencv1.py)  
+- With these commands, the web page will be opened automatically. In the case it doesn't open, go to the browser and type:
 > http://localhost:8501  
 
-## Screenshots do projeto construído
+## Screenshots
 <img src="images/screenshot01.png" />
 <img src="images/screenshot02.png" />
 <img src="images/screenshot03.png" />
